@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodigy InfoTech intenship task 1 </title>
+    <style>
+        .inner{
+    display: flex;
+    background-color:#b5bbbf;
+    position: relative;
+    padding: 15px 67px;
+    overflow: hidden;
+}
+
+.inner a{
+    text-decoration: none;
+    padding: auto;}
+    
+
+.same1{
+   display: flex;
+   background-color: #467aa44d;;
+   padding: 20px;
+   font-style: italic;
+   border-radius: 25px;
+}
+
+.same1:hover{
+    background-color: rgba(58, 182, 182, 0.653);
+    border-radius: 20px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="inner">
+          <a href="#" class="same1">Home</a>
+          <a href="#" class="same1">About</a>
+          <a href="#" class="same1">Services</a>
+          <a href="#" class="same1">contact</a>
+        </nav>
+    </header>
+</body>
+
+</html>
