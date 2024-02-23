@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="port.css">
+    <script defer src="port.js"></script>
+    <title>HRUTIK WAKALE- Web Developer</title>
+    <link rel="icon" href="img/photo.jpg" >
+
+    <style>
+        body {
+    font-family: 'Times New Roman', Times, serif;
+	color:black;
+    margin: 0;
+}
+
+header, nav, section {
+    margin: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+section img {
+    width: 205px;
+    padding: 0px 50px;
+    max-width: 67%;
+    border-radius: 30%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color:black;
+    color: #cfdddd;
+    border: none;
+    cursor: pointer;
+}
+
+  .navbar {
+    text-align: right;
+    overflow: hidden;
+    background-color: #94784a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-item {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 60px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-item:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .name {
+    font-size: xxx-large;
+    font-style: italic;
+    padding: 0px 100px;
+  }
+.name:hover {
+    font-size: xxx-large;
+    font-style: italic;
+    padding: 0px 100px;
+    color: #55a12c;
+
+}
+.h{
+    padding: 0px 75px;
+}
+.h:hover{
+    color: #55a12c;
+}
+.info{
+    padding: 0px 50px;
+}
+.info:hover{
+    padding: 0px 50px;
+    color: crimson;
+}
+.head{
+    display: table-cell;
+}
+.head1{
+    background-image:url(/img/images.jpg);
+    background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+    height:100%;
+    padding: 0px 300px;
+}
+
+.about1{
+    padding: 19px 316px;
+}
+    </style>
+
+
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="about.html" class="nav-item">About Me</a>
+        <a href="portfolio.html" class="nav-item">Portfolio</a>
+        <a href="contact.html" class="nav-item">Contact</a>
+    </div>
+    
+    <br>
+    <br>
+
+    <header class="head1" >
+        <div class="head">
+            <h1 class="name">HRUTIK T WAKALE</h1>
+            <p class="h"><B>Innovative Web Developer</B></p>
+            <p class="info">Phone. no :-- 9067200851</p>
+            <p class="info">Email :-- hrutikwakale27@gmail.com</p>
+            <p class="info">LinkedIn Profile Link :--<a href="https://www.linkedin.com/in/hrutik-wakale-1863982a4/" >LinkedIn Profile</a></p>
+            <p class="info">Instagram Profile Link :--<a href="https://www.instagram.com/hrutik__27/">Instagram Profile</a></p>
+        </div>          
+    </header>
+
+
+    <section class="head1">
+        <img src="/img/photo.jpg" alt="Hrutik Wakale">
+        <p style="font-size: xx-large;"><B>Skills:-</B>
+        </p>
+        <ul>
+            <li><p>I possess a diverse skill set in computer science, encompassing proficiency in programming languages such as
+                Python, Java, and C++, along with expertise in web development languages like HTML, CSS, and JavaScript.</p></li>
+            <li><p>My knowledge extends to fundamental concepts such as data structures and algorithms, including sorting,
+                searching, and dynamic programming. I have a solid understanding of machine learning and AI, leveraging
+                frameworks like TensorFlow and PyTorch.</p></li>
+            <li><p>Additionally, I am well-versed in database management, both relational (MySQL, PostgreSQL) and NoSQL
+                (MongoDB).With experience in the software development life cycle, version control (Git), and agile
+                methodologies, I am adept at building web applications using frameworks like Django and Spring. Operating
+                system concepts, networking protocols, security principles, and cloud computing (AWS, Azure, Google Cloud)
+                are areas where I demonstrate competence.</p></li>
+            <li><p>My problem-solving skills, crucial for addressing complex
+                computational challenges, further enhance my capabilities in the field. If you have specific questions or
+                seek guidance in any of these domains, feel free to ask!</p>
+            </li>
+        </ul>  
+    </section>
+    <section>
+        <img src="\image.avif" alt="Gokul Jagtap">
+    <ul>
+        <li><p>I possess a diverse skill set in computer science, encompassing proficiency in programming languages such as
+            Python, Java, and C++, along with expertise in web development languages like HTML, CSS, and JavaScript.</p></li>
+        <li><p>My knowledge extends to fundamental concepts such as data structures and algorithms, including sorting,
+            searching, and dynamic programming. I have a solid understanding of machine learning and AI, leveraging
+            frameworks like TensorFlow and PyTorch.</p></li>
+        <li><p>Additionally, I am well-versed in database management, both relational (MySQL, PostgreSQL) and NoSQL
+            (MongoDB).With experience in the software development life cycle, version control (Git), and agile
+            methodologies, I am adept at building web applications using frameworks like Django and Spring. Operating
+            system concepts, networking protocols, security principles, and cloud computing (AWS, Azure, Google Cloud)
+            are areas where I demonstrate competence.</p></li>
+        <li><p>My problem-solving skills, crucial for addressing complex
+            computational challenges, further enhance my capabilities in the field. If you have specific questions or
+            seek guidance in any of these domains, feel free to ask!</p></li>
+    </ul>
+    
+    </section>
+    <section class="head1">
+        <h2 class="name">Contact</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="about">
+        <div class="navbar">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="about.html" class="nav-item">About Me</a>
+            <a href="portfolio.html" class="nav-item">Portfolio</a>
+            <a href="contact.html" class="nav-item">Contact</a>
+        </div>
+        <br>
+    
+        <div class="head1">
+            <h2 class="name">About Me</h2>
+            <p><B>I am an engineering student currently pursuing Second year of my
+                bachelors In Computer Engineering Degree Course from a well known
+                Government Institute, Government College Of Engineering and
+                Research Pune.</B></p>
+                <hr>
+            <p>
+            <h5 style="font-size: x-large;">Education</h5>
+            <p>SSC : [MAHARASHTRA STATE BOARD] 2020-[86.80%]</p>
+            <p>HSC : [MAHARASHTRA STATE BOARD] 2022-[93.33%]</p>
+            <p>B.E/B.TECH IN COMPUTER ENGINEERING [GOVT.CLLG OF ENGG AND RESEARCH AVASARI KH. PUNE] 2026 -[9.95 CGPA]</p>
+            </p>
+            <p>
+            <h5 style="font-size:x-large;">Languages Known</h5>
+            <p class="p3">English</p>
+            <p class="p3">Hindi</p>
+            <p class="p3">Marathi</p>
+            </p>
+        </div>
+    </section>
+    <section class="head1">
+        <h2 class="name">Portfolio</h2>
+        <p style="font-size: x-large;">Projects:-</p>
+        <p><b>1. Depression Detection System </b></p>
+        <p><b>2. Smart India Hackathon (SIH2023)</b></p>
+        <p class="p-4"><b> Second Year Project: DEC 2023</b></p>
+            <p class="p-4">
+                As a dedicated and innovative engineer, I successfully designed and implemented an Depression Detection
+                system with advanced features for detecting is person suffering from depression or not with the help of some
+                simple questions. This project not only showcased my technical skills but also demonstrated my ability to
+                enhance everyday convenience and security.</p>
+            <p class="p-4"><b>Technologies Used : MySQL, CSS, HTML,JAVA</b></p>
+        <p class="p-4"><b>Technologies Used : JAVA SWING, CSS, HTML, BootStrap5 </b></p>
+    </section>
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+    const navbar = document.querySelector('.navbar');
+  
+    // Change background color on scroll
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 50) {
+        navbar.style.backgroundColor = '#555';
+      } else {
+        navbar.style.backgroundColor = '#222S';
+      }
+    });
+  });
+    
+    </script>
+</body>
+</html>
